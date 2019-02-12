@@ -1,0 +1,241 @@
+#wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+}
+
+.header {
+  overflow: auto;
+  position: fixed;
+  background-color: #ffffff;
+  padding: 14px;
+  margin: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: ridge 1px #cccccc;
+}
+
+.name-box {
+  position: absolute;
+  background-color: #4aaaa5;
+  width: 400px;
+  top: 0;
+  right: 0px;
+  left: 215px;
+}
+  
+.header-name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  top: 50%;
+  left: 50% 
+}
+
+.header-right {
+  position: relative;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  float: right;
+  margin-left: 20px;
+  right: 215px;
+}
+
+
+a {
+  color: #777777;
+  text-decoration: none;
+}
+
+h1 {
+  color: #4aaaa5;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: solid 2px #dddddd;
+}
+
+
+p {
+  color: #777777;
+}
+
+.body-boxed {
+  position: relative;
+  overflow:auto;
+  width: 960px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  left: 215px;
+  background-color: #ffffff;
+  position: sticky;
+  border: solid 2px #dddddd;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+img {
+  float:left;
+  padding: 10px;
+}
+
+
+p {
+  font-family: Arial, 'Helvetica Neue', Helvetica, Sans-serif;
+  font-size: 20px;
+  padding: 0px 10px 0px 10px;
+  
+ 
+  position: relative;
+}
+
+
+h6 {
+  text-align: bottom;
+}
+
+.footer-box{
+position: sticky;
+Position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+background: #666666;
+border-top: solid 10px #4aaaa5;
+vertical-align: text-bottom;
+margin: 0;
+right: 0;
+left: 0;
+overflow: hidden;
+}
+  
+label {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color:  #666666;
+}
+
+ 
+
+ input {
+	width: 900px;
+	height: 15px;
+	background: #ffffff;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+  color: #ffffff;
+ }
+
+ textarea {
+	width: 900px;
+	height: 250px;
+	background: #ffffff;
+	border:1px solid #dedede;
+	padding: 10px;
+	margin-top:3px;
+	font-size:0.9em;
+  color: #ffffff;
+ }
+
+ #submit {
+  width:120px;
+  height:40px;
+  border:none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+
+.portfolio-images {
+  position: relative;
+}
+
+.text-hangman {
+  position: absolute;
+  top: 95px;
+  left: 10px;
+  background-color: #4aaaa5;
+  width: 170px;
+  height: 55px;
+}
+
+
+.text-rpggames {
+  position: absolute;
+  top: 95px;
+  right: 106px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: #4aaaa5;
+  width: 170px;
+  height: 55px; 
+}
+
+.text-triviagames {
+  position: absolute;
+  top: 265px; 
+  left: 10px;
+  background-color: #4aaaa5;
+  width: 170px;
+  height: 55px;
+  }
+
+.text-rutgerswidget {
+  position: absolute;
+  top: 265px;
+  right: 106px;
+  background-color: #4aaaa5;
+  width: 170px;
+  height: 55px;
+  
+
+}
+
+.text-RPS {
+  bottom: 10px;
+  position: absolute;
+  left: 30px; 
+  background-color: #4aaaa5;
+  width: 170px;
+  height: 55px;
+}
+
+h4 {
+  text-align: center;
+  vertical-align: middle;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+@media (max-width: 980px) {
+
+  body {background-color: #000000;}
+}
+
+@media (max-width: 768px) {
+
+  body {background-color: #000000;}
+}
+
+@media (max-width: 640px) {
+
+  body {background-color: #000000;}
+}
+
